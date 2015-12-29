@@ -1,0 +1,48 @@
+Source: mloar-meta
+Section: metapackages
+Priority: optional
+Maintainer: Matt Loar <matt@loar.industries>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://loar.industries
+Vcs-Git: git://github.com/mloar/mloar-meta.git
+Vcs-Browser: https://github.com/mloar/mloar-meta
+
+Package: mloar-linux
+Architecture: any
+Depends: ${misc:Depends},
+ alsa-utils,
+ auditd,
+ autopsy,
+ chromium,
+ e2fsprogs,
+ electrum,
+ figlet,
+ gimp,
+ git,
+ gunupg2,
+ imagemagick,
+ jekyll,
+ larswm,
+ mutt,
+ openvpn,
+ pond,
+ python-setuptools,
+ tmux,
+ tor,
+ usbutils,
+ vim,
+ xscreensaver,
+ xzdec,
+ zip,
+ zsh,
+Description: Matt Loar Linux base system
+ This metapackage depends on all the packages that Matt Loar uses.
+
+Package: mloar-kali-linux
+Architecture: any
+Depends: ${misc:Depends},
+ kali-linux-top10,
+Description: Matt Loar Kali Linux system
+ This metapackage depends on all the packages that Matt Loar uses,
+ plus the Kali Top10 metapackage.
