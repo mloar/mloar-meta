@@ -42,6 +42,7 @@ Description: Matt Loar Linux base system
 Package: mloar-kali-linux
 Architecture: any
 Depends: ${misc:Depends},
+ mloar-linux,
  kali-linux-top10,
 Description: Matt Loar Kali Linux system
  This metapackage depends on all the packages that Matt Loar uses,
