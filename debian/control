@@ -2,11 +2,17 @@ Source: mloar-meta
 Section: metapackages
 Priority: optional
 Maintainer: Matt Loar <matt@loar.industries>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), config-package-dev (>= 5)
 Standards-Version: 3.9.5
 Homepage: https://loar.industries
 Vcs-Git: git://github.com/mloar/mloar-meta.git
 Vcs-Browser: https://github.com/mloar/mloar-meta
+
+Package: mloar-config
+Architecture: any
+Depends: ${misc:Depends},
+Description: Matt Loar config files
+ This package provides config files for Matt Loar systems.
 
 Package: mloar-linux
 Architecture: any
@@ -24,6 +30,7 @@ Depends: ${misc:Depends},
  imagemagick,
  jekyll,
  larswm,
+ mloar-config,
  mutt,
  openvpn,
  pond,

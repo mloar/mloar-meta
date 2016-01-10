@@ -1,3 +1,9 @@
+mloar-meta (1.1.1) stable; urgency=low
+
+  * Add new mloar-config package that suppresses installing Recommends.
+
+ -- Matt Loar <matt@loar.industries>  Sat, 09 Jan 2016 22:55:15 -0600
+
 mloar-meta (1.1) stable; urgency=low
 
   * Add tex packages.
