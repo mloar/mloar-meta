@@ -1,3 +1,9 @@
+mloar-meta (1.1) stable; urgency=low
+
+  * Add tex packages.
+
+ -- Matt Loar <matt@loar.industries>  Sun, 03 Jan 2016 19:30:53 -0600
+
 mloar-meta (1.0) stable; urgency=low
 
   * Initial Release.
