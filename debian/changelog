@@ -1,3 +1,9 @@
+mloar-meta (1.1.2) stable; urgency=low
+
+  * Set default APT release to kali-current.
+
+ -- Matt Loar <matt@loar.industries>  Wed, 27 Jan 2016 19:44:48 -0600
+
 mloar-meta (1.1.1) stable; urgency=low
 
   * Add new mloar-config package that suppresses installing Recommends.
